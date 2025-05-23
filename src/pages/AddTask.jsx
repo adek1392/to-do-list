@@ -87,7 +87,7 @@ export default function AddTask() {
 	return (
 		<>
 			<div
-				className=' mt-10 px-2  sm:flex sm:justify-center
+				className=' mt-15 px-2  sm:flex sm:justify-center
 
 '>
 				<form onSubmit={handleSubmit} className='flex flex-col sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] md:gap-[5px]    '>
