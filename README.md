@@ -1,12 +1,22 @@
-# React + Vite
+# To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikacja To-Do stworzona przy użyciu React, Vite, Tailwind CSS i prostych funkcji walidacji formularza. Aplikacja pozwala użytkownikowi na dodawanie, edytowanie i usuwanie zadań, a także na ustawianie daty i tytułu dla każdego zadania.
 
-Currently, two official plugins are available:
+## Link do demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Możesz zobaczyć działającą aplikację na żywo pod tym [linkiem](https://to-do-list-navy-phi.vercel.app/).
 
-## Expanding the ESLint configuration
+## Funkcje
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Dodawanie zadania z tytułem, datą i opisem.
+- Walidacja formularza (sprawdzanie, czy tytuł i data są wprowadzone).
+- Responsywny design przy użyciu Tailwind CSS.
+- Przechowywanie zadań w stanie aplikacji (na razie w pamięci przeglądarki).
+  
+## Technologie
+
+- **React** - do budowy interfejsu użytkownika.
+- **Vite** - szybkie narzędzie do budowy aplikacji frontendowych.
+- **Tailwind CSS** - framework CSS do szybkiego prototypowania i tworzenia responsywnych UI.
+  
+
