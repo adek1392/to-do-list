@@ -103,7 +103,7 @@ export default function AddTask() {
 							placeholder='wpisz tytył'
 							className={classes}
                         />
-                        <div className='h-[4] p-[1px]'>
+                        <div className=' p-1 min-h-[15px]'>
 
 						{error.title && <p className=' text-xs text-red-600'>{error.title}</p>}
                         </div>
@@ -114,7 +114,7 @@ export default function AddTask() {
 							Data wykonania:
 						</label>
                         <input id='date' type='date' value={date} onChange={handleChangeData} className={classes} />
-                        <div className='h-[4] p-[1px]'>
+                        <div className=' p-1 min-h-[15px]'>
 
 						{error.date && <p className='text-xs text-red-600'>{error.date}</p>}
                         </div>
@@ -133,7 +133,7 @@ export default function AddTask() {
                             cols='4'
                            maxLength='80'
                             className={textareaClasses}></textarea>
-                        <div className='mt-1'>
+                        <div className=' p-1 min-h-[15px]'>
                             {error.description && <p className=' text-xs text-red-600'>{error.description}</p>}
 
                         </div>
