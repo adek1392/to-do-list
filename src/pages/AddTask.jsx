@@ -133,7 +133,7 @@ export default function AddTask() {
                             cols='4'
                            maxLength='80'
                             className={textareaClasses}></textarea>
-                        <div className='h-[4] p-[1px]'>
+                        <div className='mt-1'>
                             {error.description && <p className=' text-xs text-red-600'>{error.description}</p>}
 
                         </div>
